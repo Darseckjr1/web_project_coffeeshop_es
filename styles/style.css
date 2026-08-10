@@ -114,6 +114,7 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 4;
 }
 
 .reservation {
@@ -219,6 +220,7 @@ form-input:focus {
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 3;
 }
 
 .footer-logo {
@@ -228,6 +230,22 @@ form-input:focus {
   left: 80px;
   width: 105px;
   height: 39px;
+  z-index: 3;
+}
+
+.footer-logo-background {
+  background-color: #e96e3a;
+  width: 340px;
+  height: 340px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  padding-top: 128px;
+  padding-left: 44px;
+  padding-inline-end: 0%;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  z-index: 1;
 }
 
 .footer-author {
@@ -240,6 +258,7 @@ form-input:focus {
   position: absolute;
   bottom: 60px;
   left: 80px;
+  z-index: 3;
 }
 
 .footer-text {

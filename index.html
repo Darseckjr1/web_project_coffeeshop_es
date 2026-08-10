@@ -57,9 +57,113 @@
         <p class="info-text">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </div>
     </header>
+
+    <!-- Reservation section -->
+
     <main class="content">
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h1 class="reservation-title">Reservar una mesa</h1>
+        <fieldset class="form-fieldset">
+          <label class="form-label" for="name"
+            >Nombre *
+            <input
+              required
+              class="form-input"
+              type="text"
+              id="name"
+              placeholder="Nombre"
+              style="display: block"
+          /></label>
+          <label class="form-label" for="people"
+            >Número de comensales *
+            <input
+              required
+              class="form-input"
+              type="number"
+              id="people"
+              placeholder="1-8"
+              min="1"
+              max="8"
+              style="display: block"
+          /></label>
+          <label class="form-label" for="datetime-local"
+            >Fecha y hora *
+            <input
+              required
+              class="form-input"
+              type="datetime-local"
+              id="datetime-local"
+              style="display: block"
+          /></label>
+          <label class="form-label" for="email"
+            >Correo electrónico *
+            <input
+              required
+              class="form-input"
+              type="email"
+              id="email"
+              placeholder="email@email.com"
+              style="display: block"
+          /></label>
+        </fieldset>
+        <button type="submit" class="form__button form__button--submit">
+          Reservar una mesa
+        </button>
+        <label
+          class="form-label"
+          for="checkbox"
+          style="display: flex; align-items: center; gap: 12px"
+        >
+          <input
+            required
+            class="form-checkbox"
+            type="checkbox"
+            id="checkbox"
+            style="display: block"
+          />
+          Acepto los términos de uso</label
+        >
+      </section>
     </main>
-    <footer class="footer" id="contacts"></footer>
+
+    <!-- Footer section -->
+
+    <footer class="footer" id="contacts">
+      <img
+        class="footer-logo"
+        src="./images/logo_coffeeshop_light.svg"
+        alt="Logo"
+      />
+      <p class="footer-author">@2026 Edgar Rodriguez</p>
+      <fieldset class="contacts-fieldset">
+        <p class="footer-text">Redes sociales</p>
+        <ul class="footer-socials">
+          <li>
+            <a
+              class="footer-socials-instagram"
+              href="https://www.instagram.com"
+              target="_blank"
+              ><img
+                class="instagram-logo"
+                src="./images/instagram_white.svg"
+                alt="Instagram logo"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer-socials-facebook"
+              href="https://www.facebook.com"
+              target="_blank"
+              ><img
+                class="facebook-logo"
+                src="./images/facebook_white.svg"
+                alt="Facebook logo"
+              />Facebook</a
+            >
+          </li>
+        </ul>
+      </fieldset>
+    </footer>
   </body>
 </html>

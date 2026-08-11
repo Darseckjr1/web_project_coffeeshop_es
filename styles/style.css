@@ -55,7 +55,7 @@ header {
 }
 
 .span-accent {
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
   font-size: 58px;
   line-height: 72px;
@@ -104,6 +104,10 @@ header {
   position: absolute;
   bottom: 40px;
   right: 80px;
+}
+
+span {
+  display: block;
 }
 
 /* reservation styles */
@@ -184,8 +188,6 @@ header {
 
 .form-input:focus {
   outline: 4px solid #838383;
-  border: none;
-  outline-style: none;
 }
 
 .form__button {

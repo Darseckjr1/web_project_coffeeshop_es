@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Triple Expresso</title>
+    <title>Triple Espresso</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/normalize.css" />
@@ -24,33 +24,26 @@
         </ul>
       </nav>
       <h1 class="header-title">
-        <span class="span-accent" style="display: block"
-          >Café de especialidad</span
-        >
-        <span style="display: block">en Triple Peaks</span>
+        <span class="span-accent">Café de especialidad</span>
+        <span>en Triple Peaks</span>
       </h1>
       <p class="header-description">
-        <span style="display: block"
-          >¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
-          café</span
-        >
+        <span>
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+        </span>
         para darte energía y motivar tu creatividad.
       </p>
       <img
         class="header-image"
         src="./images/inside_coffee_shop.png"
-        alt="Interior de la cafeteria"
+        alt="Cafeteria"
       />
 
       <div class="header-hours">
         <p class="info-text">Horario:</p>
         <p class="info-text">
-          <span style="display: block">
-            Lunes a Viernes (de 10:00h a 19:00h)</span
-          >
-          <span style="display: block"
-            >Sábados y Domingos (de 11:00h a 18:00h)</span
-          >
+          <span> Lunes a Viernes (de 10:00h a 19:00h) </span>
+          <span> Sábados y Domingos (de 11:00h a 18:00h) </span>
         </p>
       </div>
       <div class="header-info">
@@ -69,37 +62,38 @@
               >Nombre *
               <input
                 required
+                name="name"
                 class="form-input"
                 type="text"
                 id="name"
                 placeholder="Nombre"
-                style="display: block"
             /></label>
             <label class="form-label" for="people"
               >Número de comensales *
               <input
                 required
+                name="people"
                 class="form-input"
                 type="number"
                 id="people"
                 placeholder="1-8"
                 min="1"
                 max="8"
-                style="display: block"
             /></label>
             <label class="form-label" for="datetime-local"
               >Fecha y hora *
               <input
                 required
+                name="datetime-local"
                 class="form-input"
                 type="datetime-local"
                 id="datetime-local"
-                style="display: block"
             /></label>
             <label class="form-label" for="email"
               >Correo electrónico *
               <input
                 required
+                name="email"
                 class="form-input"
                 type="email"
                 id="email"
@@ -112,6 +106,7 @@
           <label class="form-label-checkbox" for="checkbox">
             <input
               required
+              name="checkbox"
               class="form-checkbox"
               type="checkbox"
               id="checkbox"
@@ -136,10 +131,7 @@
           <p class="footer-text">Redes sociales</p>
           <ul class="footer-socials">
             <li>
-              <a
-                class="footer-socials-instagram"
-                href="#Instagram"
-                target="_blank"
+              <a class="footer-socials-instagram" href="#" target="_blank"
                 ><img
                   class="instagram-logo"
                   src="./images/instagram_white.svg"
@@ -148,10 +140,7 @@
               >
             </li>
             <li>
-              <a
-                class="footer-socials-facebook"
-                href="#Facebook"
-                target="_blank"
+              <a class="footer-socials-facebook" href="#" target="_blank"
                 ><img
                   class="facebook-logo"
                   src="./images/facebook_white.svg"

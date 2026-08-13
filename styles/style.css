@@ -37,6 +37,9 @@ header {
   gap: 20px;
   margin: 0;
   padding: 0;
+}
+
+.nav-link {
   text-decoration: none;
   color: #000000;
 }
@@ -311,11 +314,15 @@ span {
 .footer-socials-instagram {
   display: flex;
   flex-wrap: nowrap;
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
 .footer-socials-facebook {
   display: flex;
   flex-wrap: nowrap;
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
 .footer-socials-instagram:hover,
